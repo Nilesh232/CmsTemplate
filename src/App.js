@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import About from './components/About';
+import Admission from './components/Admission';
+import Banner from './components/Banner';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
+import HeaderTop from './components/HeaderTop';
+import Nav from './components/Nav';
+import Posts from './components/Posts';
+import SchoolNews from './components/SchoolNews';
+import Upcoming from './components/Upcoming';
+// import '../public/static/fonts/fontawesome/';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderTop/>
+      <Nav/>
+      <Banner/>
+      <About/>
+      <Upcoming/>
+      <Admission/>
+      <SchoolNews/>
+      <Gallery/>
+      <Posts/>
+      <Footer/>
     </div>
   );
 }
+
+
 
 export default App;
