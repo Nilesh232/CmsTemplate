@@ -9,12 +9,13 @@ import Nav from './components/Nav';
 import Posts from './components/Posts';
 import SchoolNews from './components/SchoolNews';
 import Upcoming from './components/Upcoming';
+import Academics from './components/Academics';
 // import '../public/static/fonts/fontawesome/';
 
 function App() {
   return (
     <div className="App">
-      <HeaderTop/>
+      {/* <HeaderTop/>
       <Nav/>
       <Banner/>
       <About/>
@@ -23,7 +24,8 @@ function App() {
       <SchoolNews/>
       <Gallery/>
       <Posts/>
-      <Footer/>
+      <Footer/> */}
+      <Academics/>
     </div>
   );
 }
