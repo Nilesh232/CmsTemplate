@@ -10,22 +10,23 @@ import Posts from './components/Posts';
 import SchoolNews from './components/SchoolNews';
 import Upcoming from './components/Upcoming';
 import Academics from './components/Academics';
+import Faq from './components/Faq';
 // import '../public/static/fonts/fontawesome/';
 
 function App() {
   return (
     <div className="App">
-      {/* <HeaderTop/>
+       <HeaderTop/>
       <Nav/>
-      <Banner/>
+     {/* <Banner/>
       <About/>
       <Upcoming/>
       <Admission/>
       <SchoolNews/>
       <Gallery/>
-      <Posts/>
-      <Footer/> */}
-      <Academics/>
+      <Posts/>*/}
+      <Faq/>
+      <Footer/> 
     </div>
   );
 }
